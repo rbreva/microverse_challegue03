@@ -7,8 +7,26 @@
     position: fixed;
     background: #db0000;
     width: 100%;
+    padding: 10px;
+   
+    
 }
-
+#navbar ul {
+    display:flex;
+    justify-content: flex-end;
+    
+}
+#navbar ul li{
+    padding: 10px;
+    list-style: none;
+    
+}
+#navbar ul li a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 0.5rem 1rem;
+    color: white;
+}
 
 #welcome-section{
     height: 100vh;
