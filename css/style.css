@@ -3,14 +3,17 @@
     margin: 0;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;    
+}
+
 #navbar{
     position: fixed;
-    background: #db0000;
+    background: #be3144;
     width: 100%;
     padding: 10px;
-   
-    
 }
+
 #navbar ul {
     display:flex;
     justify-content: flex-end;
@@ -23,16 +26,38 @@
 }
 #navbar ul li a {
     text-decoration: none;
-    padding: 10px;
+    padding: 4px;
     margin: 0.5rem 1rem;
     color: white;
+    font-size: 20px;
 }
 
 #welcome-section{
     height: 100vh;
+    background: #181719;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
+h1{
+    color: white;
+    font-size: 60px;
+}
 
+h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+#projects{
+    background: #45567d;
+    text-align: center;
+    padding: 20px;
+}
 
 @media screen and (max-width: 600px) {
     .body {
