@@ -56,9 +56,23 @@ h2{
 #projects{
     background: #45567d;
     text-align: center;
-    padding: 20px;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 5rem 5rem;
+    width: 33%;
+    
 }
 
+#card img {
+    width: 100%;
+}
 @media screen and (max-width: 600px) {
     .body {
       width: 100%;
